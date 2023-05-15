@@ -19,6 +19,12 @@ class CreateTblLoginTable extends Migration
             $table->string('Last_name');
             $table->string('email');
             $table->string('Phone_number');
+            $table->integer('People');
+            $table->string('Event');
+            $table->string('Contact');
+            $table->string('Time');
+            $table->string('Info');
+            $table->string('Info_2');
             $table->timestamps();
         });
     }
